@@ -1,0 +1,20 @@
+{
+  "name": "logging-js",
+  "version": "1.0.0",
+  "description": "A plain text logging library for JS",
+  "main": "index.js",
+  "repository": "https://github.com/HergBot/logging-js",
+  "author": "Justin",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test-watch": "jest --watch",
+    "test-watch-all": "jest --watchAll",
+    "prepare": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.2"
+  }
+}
